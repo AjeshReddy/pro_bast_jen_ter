@@ -20,19 +20,19 @@ variable "privatesubnetcidr3" {
 }
 variable "publicaz" {
   type = string
-  default = "us-east-1a"
+  default = "eu-west-1a"
 }
 variable "privateaz" {
   type = string
-  default = "us-east-1a"
+  default = "eu-west-1a"
 }
 variable "privateaz2" {
   type = string
-  default = "us-east-1b"
+  default = "eu-west-1a"
 }
 variable "amiid" {
   type = string
-  default = "ami-0c2b8ca1dad447f8a"
+  default = "ami-0d1bf5b68307103c2"
 }
 variable "instancetype" {
   type = string
@@ -40,6 +40,6 @@ variable "instancetype" {
 }
 variable "keyname" {
   type = string
-  default = "rajesh-nvirginia"
+  default = "arya"
 }
 
